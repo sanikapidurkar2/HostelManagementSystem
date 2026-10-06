@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        .header {
+            background-color: #243447;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        input, select {
+            width: 95%;
+            padding: 12px;
+            margin: 8px 0 18px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #243447;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 20px;
+            color: #243447;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Student Management</h1>
+        <p>Hostel Student Registration</p>
+    </div>
+
+    <div class="container">
+
+        <h2>Add Student</h2>
+
+        <form>
+
+            <label>Student Name</label>
+            <input type="text" placeholder="Enter student name">
+
+            <label>Roll Number</label>
+            <input type="text" placeholder="Enter roll number">
+
+            <label>Gender</label>
+            <select>
+                <option>Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+
+            <label>Branch</label>
+            <input type="text" placeholder="Enter branch">
+
+            <label>Year</label>
+            <select>
+                <option>Select Year</option>
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+                <option>4th Year</option>
+            </select>
+
+            <label>Phone Number</label>
+            <input type="text" placeholder="Enter phone number">
+
+            <label>Room Number</label>
+            <input type="text" placeholder="Enter room number">
+
+            <button type="submit">Add Student</button>
+
+        </form>
+
+        <a href="/" class="back">← Back to Dashboard</a>
+
+    </div>
+
+</body>
+</html>
